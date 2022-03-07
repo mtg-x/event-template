@@ -1,0 +1,48 @@
+title: MTG Summit 2021
+dates: 18-19 Mars
+description: > # this means to ignore newlines until "baseurl:"
+  Your description
+baseurl: "/mtg-summit" # the subpath of your site, e.g. /blog
+url: "https://tagazok.github.io" # the base hostname & protocol for your site
+
+#navigation
+navigationLinks:
+ - {url: "/", text: "Accueil"}
+ - {url: "/agenda/", text: "Agenda"}
+ - {url: "/team/", text: "Participants"}
+ - {url: "/coc/", text: "CoC"}
+
+pageHeaders:
+  agenda: {bg: "#7cbb00", font: "#fff", title: "Agenda"}
+  team: {bg: "#00a1f1", font: "#fff", title: "Participants"}
+  coc: {bg: "#ffbb00", font: "#fff", title: "Code de Conduite"}
+  
+  
+facebook:
+  app_id: 
+
+logo: "../css/style/img/icon-large.png"
+
+google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+include: ['pages']
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: youtube
+    url: https://www.youtube.com/c/MUGTVFrance
+  - title: twitter
+    url: https://twitter.com/msdev_fr
+
+share:
+  - platform: twitter
+    url: "https://twitter.com/share?url=%2f&text="
+    text: "I am at the %23MTGSummit and it is awesome!"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

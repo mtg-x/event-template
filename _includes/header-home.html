@@ -1,0 +1,83 @@
+<!-- <nav class="navbar navbar-default navbar-light navbar-expand-lg fixed-top navbar-default-color">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{ '/' | relative_url }}">
+            <img src="{{ 'images/logos/logo-small-transparent.png' | relative_url }}" alt="" width="auto" height="60"
+                class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav me-auto mb-2 mb-lg-0">
+                    {% for navigationLink in site.navigationLinks %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ navigationLink.url | absolute_url }}">{{ navigationLink.text }}</a>
+                    </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-dark navbar-expand-lg fixed-top navbar-default-color">
+    <div class="container">
+        <a class="navbar-brand" href="{{ '/' | relative_url }}">
+            <img src="{{ 'images/logos/logo-small-transparent.png' | relative_url }}" alt="" width="auto" height="60"
+                class="d-inline-block align-text-top logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav nav mb-2 mb-lg-0">
+                {% for navigationLink in site.navigationLinks %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ navigationLink.url | absolute_url }}">{{ navigationLink.text }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- <nav class="navbar navbar-default navbar-default-color fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand page-scroll" href="{{ '/' | relative_url }}"><img src="{{ 'images/logos/logo-small-transparent.png' | relative_url }}"
+                    width="auto" height="100%" alt="icon-about"></a>
+        </div>
+
+      
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="/"></a>
+                </li>
+                {% for navigationLink in site.navigationLinks %}
+                    <li>
+                        <a class="page-scroll" href="{{ navigationLink.url | absolute_url }}">{{ navigationLink.text }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+       
+    </div>
+   
+</nav> -->

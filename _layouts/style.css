@@ -1,0 +1,46 @@
+
+{% include css/agency.css %}
+{{ content }}
+
+
+.header {
+    height: 50vh;
+    color: #000;
+    padding-top: 110px;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.logo {
+    filter: drop-shadow(0px 0px 2px #000000);
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+
+footer {
+    padding: 4em 0;
+    background-color: #222;
+    color: #8a8a8a;
+}
+
+footer a {
+    padding: .5rem;
+    color: #fff;
+}

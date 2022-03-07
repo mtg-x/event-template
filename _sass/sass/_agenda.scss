@@ -1,0 +1,96 @@
+.event {
+  // padding: 5%;
+  // margin: 100px 10vw 60px 10vw;
+  img {
+    width: 100%;
+  }
+  a {
+    color: darkblue;
+  }
+  h2, h3, ol, p {
+    color: black; 
+    text-align: left;
+  }
+  p, ol {
+    font-size: 110%;
+  }
+}
+
+.event-day {
+  margin-bottom: 3em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.event-date {
+  font-size: 2em;
+  text-align: center;
+}
+
+.agenda {
+  margin-left: auto;
+  // max-width: calc(100% - 64px);
+  color: #424242;
+
+  .event-slot-time {
+    text-align: right;
+    // transform: translateX(calc(-100% - 16px));
+    color: #757575;
+    font-size: 32px;
+    font-weight: 100;
+  }
+
+  .session {
+    border: solid 1px #e2e2e2;
+    border-radius: 4px;
+    padding: 16px;
+
+
+    .session-title {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+    .session-abstract {
+      padding-top: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;  
+      overflow: hidden;
+    }
+
+    .session-speakers {
+      padding-top: 32px;
+      
+      .session-speaker {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        padding-bottom: 10px;
+
+        &:last-child {
+          padding-bottom: 0px;
+        }
+
+        img {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          margin-right: 12px;;
+        }
+
+        .speaker-company {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+.grid {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 32px;
+  grid-template-columns: auto repeat(calc(var(--tracks-number)), 1fr);
+}

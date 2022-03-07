@@ -1,0 +1,22 @@
+<footer>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div>SHARE</div>
+                {% for network in site.share %}
+                <a href="{{ network.url }}{{network.text}}" target="_blank"><i class="bi bi-{{ network.platform }}"></i></a>
+                {% endfor %}
+            </div>
+            <div class="col">
+                <div>FOLLOW US</div>
+                {% for network in site.social %}
+                <a href="{{ network.url }}" target="_blank"><i class="bi bi-{{ network.title }}"></i></a>
+                {% endfor %}
+            </div>
+            <div class="col">
+                <div>CONTACT US</div>
+                <i class="bi bi-envelope-fill" target="_blank"></i><a href="mailto:devrelfr@microsoft.com">devrelfr@microsoft.com</a>
+            </div>
+        </div>
+    </div>
+</footer>

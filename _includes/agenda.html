@@ -1,0 +1,42 @@
+<section class="agenda">
+    <div class="container">
+    {% for agenda in site.data.agenda %}
+    <div class="event-day">
+        <h1 class="event-date">
+            {{ agenda.date }}
+        </h1>
+        <div class="agenda">
+            <div class="grid" style="--tracks-number: {{ agenda.tracks }};">
+                {% for slot in agenda.slots %}
+                <div class="event-slot-time" style="grid-area: {{ forloop.index }} / 1;">
+                    {{ slot.start }}
+                </div>
+                {% assign slotIndex = {{forloop.index}} %}
+                {% for session in slot.sessions %}
+                <div class="session" style="grid-area: {{ slotIndex }} / {{ forloop.index |plus:1 }}">
+                    <div class="session-infos">
+                        <div class="session-title">{{ session.title }}</div>
+                        <div class="session-abstract">{{ session.abstract}}</div>
+                    </div>
+                    <div class="session-speakers">
+                        {% for speaker in session.speakers %}
+                        <div class="session-speaker">
+                            <div>
+                                <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.name }}">
+                            </div>
+                            <div>
+                                <div>{{ speaker.name }}</div>
+                                <div class="speaker-company">{{ speaker.company }}</div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</section>

@@ -1,0 +1,7 @@
+<!-- Services Section -->
+<section id="intro">
+    <div class="container">
+        {% capture my_include %}{% include markdown/intro.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>

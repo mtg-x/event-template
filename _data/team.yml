@@ -1,0 +1,130 @@
+-
+  firstname: "Olivier"
+  lastname: "Leplus"
+  image: "olivierleplus.png"
+  company: "Microsoft"
+-
+  firstname: "Tiffany"
+  lastname: "Souterre"
+  image: "tiffanysouterre.jpg"
+  company: "Microsoft"
+-
+  firstname: "Fabien"
+  lastname: "Medat"
+  image: "fabienmedat.jpg"
+  company: "Microsoft"
+-
+  firstname: "Olivier"
+  lastname: "Mertens"
+  image: "oliviermertens.jpg"
+  company: "Microsoft"
+-
+  firstname: "Adrien"
+  lastname: "Clerbois"
+  image: "adrienclerbois.jpg"
+  company: "DevDay"
+-
+  firstname: "Christophe"
+  lastname: "Peugnet"
+  image: "christophepeugnet.png"
+  company: "DevApps"
+-
+  firstname: "Frederic"
+  lastname: "Carbonnelle"
+  image: "fredericcarbonnelle.jpg"
+  company: "MIC"
+-
+  firstname: "Antoine"
+  lastname: "Smet"
+  image: "antoinesmet.jpg"
+  company: "MIC"
+-
+  firstname: "Olivier"
+  lastname: "Zaradny"
+  image: "olivierzaradny.jpg"
+  company: "MUG Lille"
+-
+  firstname: "Guillaume"
+  lastname: "Delahaye"
+  image: "guillaumedelahaye.jpg"
+  company: "MUG Lille"
+-
+  firstname: "Nicolas"
+  lastname: "Mariot"
+  image: "nicolasmariot.jpg"
+  company: "MUG .Net Nantes"
+-
+  firstname: "Thomas"
+  lastname: "Rannou"
+  image: "thomasrannou.jpg"
+  company: "MUG .Net Nantes"
+-
+  firstname: "David"
+  lastname: "Toussaint"
+  image: "davidtoussaint.jpg"
+  company: ".Net Toulouse"
+-
+  firstname: "Thomas"
+  lastname: "Bolon"
+  image: "thomasbolon.jpg"
+  company: ".Net Toulouse"
+-
+  firstname: "Stéphane"
+  lastname: "Van Gulick"
+  image: "stephanevangulick.jpg"
+  company: "FRPSUG"
+-
+  firstname: "Laurent"
+  lastname: "Lienhard"
+  image: "laurentlienhard.jpg"
+  company: "French Powershell & DevOps User group"
+-
+  firstname: "Arnaud"
+  lastname: "Maichac"
+  image: "arnaudmaichac.jpg"
+  company: ".NET User Group Luxembourg"
+-
+  firstname: "Ahmed"
+  lastname: "Zahri"
+  image: "ahmedzahri.jpg"
+  company: "MUG Strasbourg"
+-
+  firstname: "Joffrey"
+  lastname: "Nurit"
+  image: "joffreynurit.jpg"
+  company: "MUG Montpellier"
+-
+  firstname: "Nicolas"
+  lastname: "Letullier"
+  image: "nicolasletullier.jpg"
+  company: "MUG Rennes"
+-
+  firstname: "Aymeric"
+  lastname: "Weinbach"
+  image: "aymericweinbach.jpg"
+  company: "Azugfr"
+-
+  firstname: "Cédric"
+  lastname: "Fouassier"
+  image: "cedricfouassier.jpg"
+  company: "MUG Tours"
+-
+  firstname: "Sylvain"
+  lastname: "Coudert"
+  image: "sylvaincoudert.jpg"
+  company: "MUG Lyon"
+-
+  firstname: "Julien"
+  lastname: "Landuré"
+  image: "julienlandure.jpg"
+  company: "GDG Nantes"
+-
+  firstname: "Benjamin"
+  lastname: "Petetot"
+  image: "benjaminpetetot.jpg"
+  company: "GDG Nantes"
+-
+  firstname: "Annabelle"
+  lastname: "Koster"
+  image: "annabellekoster.jpg"
+  company: "GDG Nantes"

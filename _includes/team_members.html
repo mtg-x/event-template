@@ -1,0 +1,17 @@
+<!-- Portfolio Grid Section -->
+<section id="speakers" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            {% assign teamSorted = site.data.team | sort: 'firstname' %}
+            {% for person in teamSorted %}
+            <div class="col-md-4 col-sm-6 speakers-item">
+                <img src="{{ person.image | prepend: "images/team/" | relative_url }}" class="img-responsive img-centered width-100p" alt="">
+                <div class="speakers-caption">
+                    <h4>{{ person.firstname }} {{ person.lastname }}</h4>
+                    <p class="text-muted">{{ person.company }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

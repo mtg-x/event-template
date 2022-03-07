@@ -1,0 +1,185 @@
+-
+  date: "18 Mars"
+  tracks: 1
+  slots: 
+    - 
+      start: "12:30"
+      end: "13:00"
+      sessions:
+        - 
+          title: "Déjeuner"
+    -
+      start: "14:00"
+      end: "15:00"
+      sessions:
+        - 
+          title: "Bienvenue"
+          abstract: "Ou on vous dit tout ce qu'on a prévu pour vous pendant ce Summit :)"
+          speakers: 
+            - 
+              name: "Tiffany Souterre"
+              image: "tiffanysouterre.jpg"
+              company: "Microsoft"
+            - 
+              name: "Olivier Leplus"
+              image: "olivierleplus.png"
+              company: "Microsoft"
+    -
+      start: "14:30"
+      end: "15:00"
+      sessions:
+        - 
+          title: "Lego Serious Play"
+    -
+      start: "16:30"
+      end: "16:45"
+      sessions:
+        - 
+          title: "Pause"
+    -
+      start: "16:45"
+      end: "17:15"
+      sessions:
+        - 
+          title: "Présentation Branding"
+          abstract: "Présentation du nouveau branding MTG et des assets"
+          speakers: 
+            - 
+              name: "Tiffany Souterre"
+              image: "tiffanysouterre.jpg"
+              company: "Microsoft"
+            - 
+              name: "Olivier Leplus"
+              image: "olivierleplus.png"
+              company: "Microsoft"
+    -
+      start: "17:15"
+      end: "18:15"
+      sessions:
+        - 
+          title: "Focus sur votre image et vos prises de paroles sur les réseaux sociaux"
+          abstract: "Présentation du nouveau branding MTG et des assets"
+          speakers: 
+            - 
+              name: "Doriane Houssais"
+              image: "dorianehoussais.jpg"
+              company: "Microsoft"
+            - 
+              name: "Candice Rouzic"
+              image: "candicerouzic.jpg"
+              company: "Microsoft"
+    -
+      start: "18:15"
+      end: "18:45"
+      sessions:
+        - 
+          title: "Les outils pour faire vos vidéos"
+          abstract: "Présentation des différents outils pour faire des vidéos et des événements en ligne"
+          speakers: 
+            - 
+              name: "Olivier Leplus"
+              image: "olivierleplus.png"
+              company: "Microsoft"
+    -
+      start: "18:45"
+      end: "19:00"
+      sessions:
+        - 
+          title: "Pause"
+    -
+      start: "19:00"
+      end: "20:00"
+      sessions:
+        - 
+          title: "Dîner"
+    -
+      start: "20:00"
+      end: "22:00"
+      sessions:
+        - 
+          title: "Soirée jeux, discussions ouvertes..."
+-
+  date: "19 Mars"
+  tracks: 1
+  slots:
+    - 
+      start: "08:00"
+      end: "09:00"
+      sessions:
+        - 
+          title: "Petit déjeuner"
+    -
+      start: "09:00"
+      end: "09:30"
+      sessions:
+        - 
+          title: "L'histoire du GDG Nantes et du DevFest Nantes"
+          abstract: "..."
+          speakers: 
+            - 
+              name: "Julien Landuré"
+              image: "julienlandure.jpg"
+              company: "GDG Nantes"
+            - 
+              name: "Annabelle Koster"
+              image: "annabellekoster.jpg"
+              company: "GDG Nantes"
+    -
+      start: "09:30"
+      end: "10:00"
+      sessions:
+        - 
+          title: "Comment gérer votre comm"
+          abstract: "..."
+          speakers: 
+            - 
+              name: "Annabelle Koster"
+              image: "annabellekoster.jpg"
+              company: "GDG Nantes"
+    -
+      start: "10:00"
+      end: "10:30"
+      sessions:
+        - 
+          title: "Conference-hall"
+          abstract: "..."
+          speakers: 
+            - 
+              name: "Benjamin Petetot"
+              image: "benjaminpetetot.jpg"
+              company: "GDG Nantes"
+    -
+      start: "10:30"
+      end: "10:45"
+      sessions:
+        - 
+          title: "Pause"
+    -
+      start: "10:45"
+      end: "12:30"
+      sessions:
+        - 
+          title: "Atelier Création d'asset"
+          abstract: "Ateliers autour de la création d'assets et de l'utilisation du nouveau branding des communautés Microsoft"
+    -
+      start: "12:30"
+      end: "14:00"
+      sessions:
+        - 
+          title: "Déjeuner"
+    -
+      start: "14:00"
+      end: "14:30"
+      sessions:
+        - 
+          title: "Cloture et remerciements"
+          speakers: 
+            - 
+              name: "Tiffany Souterre"
+              image: "tiffanysouterre.jpg"
+              company: "Microsoft"
+            - 
+              name: "Olivier Leplus"
+              image: "olivierleplus.png"
+              company: "Microsoft"
+  
