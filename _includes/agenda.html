@@ -8,31 +8,40 @@
         <div class="agenda">
             <div class="grid" style="--tracks-number: {{ agenda.tracks }};">
                 {% for slot in agenda.slots %}
-                <div class="event-slot-time" style="grid-area: {{ forloop.index }} / 1;">
-                    {{ slot.start }}
-                </div>
-                {% assign slotIndex = {{forloop.index}} %}
-                {% for session in slot.sessions %}
-                <div class="session" style="grid-area: {{ slotIndex }} / {{ forloop.index |plus:1 }}">
-                    <div class="session-infos">
-                        <div class="session-title">{{ session.title }}</div>
-                        <div class="session-abstract">{{ session.abstract}}</div>
+                    <div class="event-slot-time" style="grid-area: {{ forloop.index }} / 1;">
+                        {{ slot.start }}
                     </div>
-                    <div class="session-speakers">
-                        {% for speaker in session.speakers %}
-                        <div class="session-speaker">
-                            <div>
-                                <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.name }}">
+                    {% assign slotIndex = {{forloop.index}} %}
+                    {% for sessionId in slot.sessions %}
+                    {% assign sessionIndex = {{forloop.index}} %}
+                        {% for session in site.data.sessions %}
+                            {% if session.id == sessionId %}
+                            <div class="session" style="grid-area: {{ slotIndex }} / {{ sessionIndex |plus:1 }}">
+                                <div class="session-infos">
+                                    <div class="session-title">{{ session.title }}</div>
+                                    <div class="session-abstract">{{ session.abstract}}</div>
+                                </div>
+                                <div class="session-speakers">
+                                    {% for speakerId in session.speakers %}
+                                        {% for speaker in site.data.speakers %}
+                                            {% if speaker.id == speakerId %}
+                                            <div class="session-speaker">
+                                                <div>
+                                                    <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.name }}">
+                                                </div>
+                                                <div>
+                                                    <div>{{ speaker.name }}</div>
+                                                    <div class="speaker-company">{{ speaker.company }}</div>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endfor %}
+                                </div>
                             </div>
-                            <div>
-                                <div>{{ speaker.name }}</div>
-                                <div class="speaker-company">{{ speaker.company }}</div>
-                            </div>
-                        </div>
+                            {% endif %}
                         {% endfor %}
-                    </div>
-                </div>
-                {% endfor %}
+                    {% endfor %}
                 {% endfor %}
             </div>
         </div>

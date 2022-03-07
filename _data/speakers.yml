@@ -1,0 +1,35 @@
+-
+  id: 1
+  name: "Tiffany Souterre"
+  image: "tiffanysouterre.jpg"
+  company: "Microsoft"
+-
+  id: 2
+  name: "Olivier Leplus"
+  image: "olivierleplus.png"
+  company: "Microsoft"
+- 
+  id: 3
+  name: "Doriane Houssais"
+  image: "dorianehoussais.jpg"
+  company: "Microsoft"
+- 
+  id: 4
+  name: "Candice Rouzic"
+  image: "candicerouzic.jpg"
+  company: "Microsoft"
+- 
+  id: 5
+  name: "Julien Landuré"
+  image: "julienlandure.jpg"
+  company: "GDG Nantes"
+- 
+  id: 6
+  name: "Annabelle Koster"
+  image: "annabellekoster.jpg"
+  company: "GDG Nantes"
+- 
+  id: 7
+  name: "Benjamin Petetot"
+  image: "benjaminpetetot.jpg"
+  company: "GDG Nantes"
