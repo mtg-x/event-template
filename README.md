@@ -8,7 +8,7 @@
 - Code of Conduct
 
 ### Event details
-- Configure the event title, date and icon in the config.yml file
+- Configure the event title, date and icon in the `config.yml` file
 ### Team's Profile Page
 Two different design:
 -  Put the team profile pictures in the `images/team` folder
