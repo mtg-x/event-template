@@ -3,33 +3,64 @@
   name: "Tiffany Souterre"
   image: "tiffanysouterre.jpg"
   company: "Microsoft"
+  social:
+    - name: twitter
+      link: https://twitter.com/TiffanySouterre
+    - name: linkedin
+      link: https://www.linkedin.com/in/tiffanysouterre/
 -
   id: 2
   name: "Olivier Leplus"
   image: "olivierleplus.png"
   company: "Microsoft"
+  social:
+    - name: twitter
+      link: https://twitter.com/olivierleplus
+    - name: linkedin
+      link: https://www.linkedin.com/in/olivierleplus/
 - 
   id: 3
   name: "Doriane Houssais"
   image: "dorianehoussais.jpg"
   company: "Microsoft"
+  social:
+    - name: linkedin
+      link: https://www.linkedin.com/in/doriane-houssais/
 - 
   id: 4
   name: "Candice Rouzic"
   image: "candicerouzic.jpg"
   company: "Microsoft"
+  social:
+    - name: linkedin
+      link: https://www.linkedin.com/in/candice-rouzic2/
 - 
   id: 5
   name: "Julien Landuré"
   image: "julienlandure.jpg"
   company: "GDG Nantes"
+  social:
+    - name: twitter
+      link: https://twitter.com/jlandure
+    - name: linkedin
+      link: https://www.linkedin.com/in/jlandure/
 - 
   id: 6
   name: "Annabelle Koster"
   image: "annabellekoster.jpg"
   company: "GDG Nantes"
+  social:
+    - name: twitter
+      link: https://twitter.com/AnnabelleKoster
+    - name: linkedin
+      link: https://www.linkedin.com/in/annabelle-koster/
 - 
   id: 7
   name: "Benjamin Petetot"
   image: "benjaminpetetot.jpg"
   company: "GDG Nantes"
+  social:
+    - name: twitter
+      link: https://twitter.com/bpetetot
+    - name: linkedin
+      link: https://www.linkedin.com/in/benjamin-petetot-29b99a54/

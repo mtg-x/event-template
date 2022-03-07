@@ -9,6 +9,7 @@ url: "https://mtg-x.github.io" # the base hostname & protocol for your site
 navigationLinks:
  - {url: "/", text: "Accueil"}
  - {url: "/agenda/", text: "Agenda"}
+ - {url: "/speakers/", text: "Speakers"}
  - {url: "/team/", text: "Participants"}
  - {url: "/faq/", text: "FAQ"}
  - {url: "/coc/", text: "CoC"}
@@ -18,6 +19,7 @@ pageHeaders:
   team: {bg: "#00a1f1", font: "#fff", title: "Participants"}
   coc: {bg: "#ffbb00", font: "#fff", title: "Code de Conduite"}
   faq: {bg: "#f65314", font: "#fff", title: "Foire Aux Questions"}
+  speakers: {bg: "#00a1f1", font: "#fff", title: "Speakers"}
   
   
 facebook:
