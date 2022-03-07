@@ -2,6 +2,7 @@
   id: 1
   name: "Tiffany Souterre"
   image: "tiffanysouterre.jpg"
+  job: "Developer Relations PM"
   company: "Microsoft"
   social:
     - name: twitter
@@ -12,6 +13,7 @@
   id: 2
   name: "Olivier Leplus"
   image: "olivierleplus.png"
+  job: "Developer Relations PM"
   company: "Microsoft"
   social:
     - name: twitter
@@ -22,6 +24,7 @@
   id: 3
   name: "Doriane Houssais"
   image: "dorianehoussais.jpg"
+  job: "Social Media Manager"
   company: "Microsoft"
   social:
     - name: linkedin
@@ -30,6 +33,7 @@
   id: 4
   name: "Candice Rouzic"
   image: "candicerouzic.jpg"
+  job: "Social Media Manager"
   company: "Microsoft"
   social:
     - name: linkedin

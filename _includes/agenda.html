@@ -13,13 +13,15 @@
                     </div>
                     {% assign slotIndex = {{forloop.index}} %}
                     {% for sessionId in slot.sessions %}
-                    {% assign sessionIndex = {{forloop.index}} %}
-                        {% for session in site.data.sessions %}
-                            {% if session.id == sessionId %}
-                            <div class="session" style="grid-area: {{ slotIndex }} / {{ sessionIndex |plus:1 }}">
+                        {% assign sessionIndex = {{forloop.index}} %}
+                        {% assign sessionPath = "_sessions/" | append: sessionId | append: ".md" %}
+                
+                        {% for session in site.sessions %}
+                            {% if session.path == sessionPath %}
+                            <a href="{{session.url | relative_url }}" class="session" style="grid-area: {{ slotIndex }} / {{ sessionIndex |plus:1 }}">
                                 <div class="session-infos">
                                     <div class="session-title">{{ session.title }}</div>
-                                    <div class="session-abstract">{{ session.abstract}}</div>
+                                    <div class="session-abstract">{{ session.content | markdownify}}</div>
                                 </div>
                                 <div class="session-speakers">
                                     {% for speakerId in session.speakers %}
@@ -38,7 +40,7 @@
                                         {% endfor %}
                                     {% endfor %}
                                 </div>
-                            </div>
+                            </a>
                             {% endif %}
                         {% endfor %}
                     {% endfor %}

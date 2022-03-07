@@ -19,11 +19,21 @@ pageHeaders:
   team: {bg: "#00a1f1", font: "#fff", title: "Participants"}
   coc: {bg: "#ffbb00", font: "#fff", title: "Code de Conduite"}
   faq: {bg: "#f65314", font: "#fff", title: "Foire Aux Questions"}
+  sessions: {bg: "#7cbb00", font: "#fff"}
   speakers: {bg: "#00a1f1", font: "#fff", title: "Speakers"}
   
-  
-facebook:
-  app_id: 
+collections:
+  sessions:
+    output: true
+    permalink: /sessions/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "sessions"
+    values:
+      layout: "session"
 
 logo: "../css/style/img/icon-large.png"
 

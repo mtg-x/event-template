@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% include /session-header.html %}
+
+<section id="session">
+    <div class="container session">
+        <div class="content">
+            {{ content }}
+        </div>
+        {% if page.speakers and page.speakers.size != 0 %}
+        <hr />
+        <div class="session-speakers">
+            {% for speakerId in page.speakers %}
+                {% for speaker in  site.data.speakers %}
+                    {% if speaker.id == speakerId %}
+                    <div class="session-speaker mb-4">
+                        <div>
+                            <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.name }}" />
+                            </div>
+                        <div class="speaker-infos">
+                            <div class="speaker-name">{{ speaker.name }}</div>
+                            <div>{{ speaker.job}}</div>
+                            <div class="speaker-company">{{ speaker.company }}</div>
+                            <div class="social-links">
+                                {% for social in speaker.social %}
+                                    <a href="{{ social.url }}" target="_blank"><i class="bi bi-{{ social.name }}"></i></a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</section>
+<!-- <p>{{ page.path }}</p>
+<p>{{page.url}}</p>
+<p><a href="{{page.url}}">{{page.title}}</a></p>
+<p>{{ page.level }}</p>
+<p>{{ page.language }}</p>
+<p>{{ page.speakers }}</p>
+{% for speakerId in page.speakers %}
+<ul>
+    {% for speaker in site.data.speakers %}
+        {% if speaker.id == speakerId %}
+                <li>{{ speaker.name }}</li>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endfor %} -->
