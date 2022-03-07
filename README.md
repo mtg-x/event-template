@@ -15,6 +15,8 @@ Two different design:
 -  Put the team informations in the `_data/team.yml` file
 ### Agenda
 - Put your agenda in the `_data/agenda.yml` file
+### FAQ
+- You can edit your Questions & Answers in the `_data/faq.yml` file	
 # Intro
 You can edit the introduction of your website in the `_includes/markdown/intro.md` file.
 ### Code of Conduct
