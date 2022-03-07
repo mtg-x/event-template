@@ -1,0 +1,19 @@
+<section id="faq">
+    <div class="container">
+        <h1 class="title">{{ page.title }}</h1>
+
+        <p>Below is a list of Frequently Asked Questions (FAQ).
+        <p>
+        <ul>
+            {% for faq in site.data.faq %}
+            <li><b>{{ faq.question }}</b>
+                <br>{{ faq.answer }}<br><br>
+            </li>
+            {% endfor %}
+        </ul>
+        <!-- <p>
+            For further enquiries, kindly submit your question via the <a href="/#contacts">contact us</a>
+            page or send us an email at <a href="mailto:hello.world@gmail.com">hello.world@gmail.com</a>
+        </p> -->
+    </div>
+</section>
