@@ -95,14 +95,8 @@
       margin: 0 auto;
   }
   
-  aside.clients {
-      padding-top: 150px;
-      padding-bottom: 100px;
-  }
-  
-  aside.clients,
   .bg-light-gray {
-      background-color: #f7f7f7;
+      background-color: #fcfcfc;
   }
   
   .bg-darkest-gray {
@@ -429,84 +423,6 @@
       text-transform: none;
   }
   
-  #speakers .speakers-item {
-      right: 0;
-      margin: 0 0 15px;
-  }
-  
-  #speakers .speakers-item .speakers-link {
-      display: block;
-      position: relative;
-      margin: 0 auto;
-      max-width: 400px;
-  }
-  
-  #speakers .speakers-item .speakers-link .speakers-hover {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      -webkit-transition: all ease .5s;
-      -moz-transition: all ease .5s;
-      transition: all ease .5s;
-      background: #3cb371;
-  }
-  
-  #speakers .speakers-item .speakers-link .speakers-hover:hover {
-      opacity: 1;
-  }
-  
-  #speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      height: 20px;
-      margin-top: -12px;
-      text-align: center;
-      font-size: 120%;
-      color: #fff;
-  }
-  
-  #speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content i {
-      margin-top: -12px;
-  }
-  
-  #speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content h3,
-  #speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content h4 {
-      margin: 0;
-  }
-  
-  #speakers .speakers-item .speakers-caption {
-      margin: 0 auto;
-      padding-top: 25px;
-      padding-bottom: 5px;
-      text-align: center;
-      background-color: #fff;
-  }
-  
-  #speakers .speakers-item .speakers-caption h4 {
-      margin: 0;
-      text-transform: none;
-  }
-  
-  /*
-  #speakers .speakers-item .speakers-caption p {
-      margin: 0;
-      font-family: {{ site.data.template.font.secondary }};
-      font-size: 100%;
-      font-style: italic;
-  }
-  */
-  
-  #speakers * {
-      z-index: 2;
-  }
-  
-  @media(min-width:767px) {
-      #speakers .speakers-item {
-          margin: 0 0 30px;
-      }
-  }
   
   .timeline {
       position: relative;
