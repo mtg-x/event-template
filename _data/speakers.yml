@@ -24,16 +24,18 @@
   id: 3
   name: "Doriane Houssais"
   image: "dorianehoussais.jpg"
-  job: "Social Media Manager"
+  job: "Team Lead Social Media"
   company: "Microsoft"
   social:
+    - name: twitter
+      link: https://twitter.com/Doriane_H
     - name: linkedin
       link: https://www.linkedin.com/in/doriane-houssais/
 - 
   id: 4
   name: "Candice Rouzic"
   image: "candicerouzic.jpg"
-  job: "Social Media Manager"
+  job: "Social Media Manager Tech & Dev"
   company: "Microsoft"
   social:
     - name: linkedin
