@@ -4,7 +4,7 @@
 
 
 .header {
-    height: 50vh;
+    min-height: 50vh;
     color: #000;
     padding-top: 110px;
 }
@@ -19,6 +19,21 @@
 
 .width-100p {
     width: 100%;
+}
+
+.speaker-header img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 1px #fff;
+}
+
+#speaker .session {
+    padding: .5rem 0 .5rem 1rem;
+}
+
+#speaker .session .session-details {
+    font-size: .85rem;
 }
 
 .logo {

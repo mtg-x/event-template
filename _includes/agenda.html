@@ -31,10 +31,10 @@
                                             {% if speaker.id == speakerId %}
                                             <div class="session-speaker">
                                                 <div>
-                                                    <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.name }}">
+                                                    <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.display_name }}">
                                                 </div>
                                                 <div>
-                                                    <div>{{ speaker.name }}</div>
+                                                    <div>{{ speaker.display_name }}</div>
                                                     <div class="speaker-company">{{ speaker.company }}</div>
                                                 </div>
                                             </div>

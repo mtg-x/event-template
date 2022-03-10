@@ -1,0 +1,8 @@
+<div class="header speaker-header d-flex flex-column justify-content-center" style="background-color: {{ site.pageHeaders['speakers'].bg }}; color: {{ site.pageHeaders['speakers'].font }};">
+    <div class="container">
+        <div class="intro-text text-center">
+            <img src="{{page.image | prepend:"images/speakers/" | relative_url}}">
+            <div class="intro-heading">{{ page.display_name }}<br></div>
+        </div>
+    </div>
+</div>

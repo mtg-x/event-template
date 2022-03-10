@@ -44,6 +44,14 @@ include: ['pages']
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-datapage-generator
+
+page_gen-dirs: false
+
+page_gen:
+  - data: 'speakers'
+    template: 'speaker'
+    name: 'id'
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

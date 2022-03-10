@@ -3,37 +3,29 @@
   tracks: 1
   slots: 
     - 
-      start: "12:30"
-      end: "13:00"
+      start: "13:30"
+      end: "14:30"
       sessions: [14]
-    -
-      start: "14:00"
-      end: "15:00"
-      sessions: [1]
     -
       start: "14:30"
       end: "15:00"
+      sessions: [1]
+    -
+      start: "15:00"
+      end: "17:00"
       sessions: [2]
     -
-      start: "16:30"
-      end: "16:45"
-      sessions: [3]
-    -
-      start: "16:45"
+      start: "17:00"
       end: "17:15"
-      sessions: [4]
+      sessions: [3]
     -
       start: "17:15"
-      end: "18:15"
-      sessions: [5]
+      end: "18:00"
+      sessions: [4]
     -
-      start: "18:15"
-      end: "18:45"
-      sessions: [6]
-    -
-      start: "18:45"
+      start: "18:00"
       end: "19:00"
-      sessions: [3]
+      sessions: [5]
     -
       start: "19:00"
       end: "20:00"
@@ -47,7 +39,7 @@
   tracks: 1
   slots:
     - 
-      start: "08:00"
+      start: "07:00"
       end: "09:00"
       sessions: [9]
     -
@@ -64,10 +56,14 @@
       sessions: [12]
     -
       start: "10:30"
-      end: "10:45"
+      end: "11:00"
       sessions: [3]
     -
-      start: "10:45"
+      start: "11:00"
+      end: "11:30"
+      sessions: [6]
+    -
+      start: "11:30"
       end: "12:30"
       sessions: [13]
     -

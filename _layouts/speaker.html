@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body id="page-top" class="index">
+
+    {% include header-home.html %}
+    {% include speaker-header.html %}
+
+    <section id="speaker">
+        <div class="container">
+            <div>
+            <h6>Sessions</h6>
+                {% for session in site.sessions %}
+                    {% if session.speakers contains page.id %}
+
+                        <div class="session">
+                            <a href="{{session.url | relative_url }}">{{session.title}}</a>
+                            
+                            <div class="session-details">
+                            {% for agenda in site.data.agenda %}
+                                {% assign date = agenda.date %}
+                                {% for slot in agenda.slots %}
+                                    {% if slot.sessions contains session.uid %}
+                                        {{date}} - {{slot.start}} - {{slot.end}}
+                                    {% endif %}
+                                {% endfor %}
+                                
+                            {% endfor %}
+                            </div>
+                        </div>
+                    {%endif %}
+                {% endfor %}
+            </div>
+            <hr />
+            <i class="bi bi-building"></i> {{page.company}}
+            <div class="social-links">
+                {% for social in page.social %}
+                    <a href="{{ social.url }}" target="_blank"><i class="bi bi-{{ social.name }}"></i></a>
+                {% endfor %}
+            </div>
+            <p>
+            {{page.bio}}
+            </p>
+        </div>
+
+    </section>
+
+    {% include footer.html %}
+    {% include js.html %}
+</body>
+
+</html>

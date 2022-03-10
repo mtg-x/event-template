@@ -1,9 +1,9 @@
 -
   id: 1
-  name: "Tiffany Souterre"
+  display_name: "Tiffany Souterre"
   image: "tiffanysouterre.jpg"
-  job: "Developer Relations PM"
   company: "Microsoft"
+  bio: "I love science and I love data! After finishing a PhD in genetic engineering, I continued my quest for discovering new patterns through data science and machine learning. I worked for 3 years as a Data/ML Engineer and I am currently DevRel at Microsoft. Someday, I wish to leverage artificial intelligence and genetics to improve people's lives."
   social:
     - name: twitter
       link: https://twitter.com/TiffanySouterre
@@ -11,10 +11,10 @@
       link: https://www.linkedin.com/in/tiffanysouterre/
 -
   id: 2
-  name: "Olivier Leplus"
+  display_name: "Olivier Leplus"
   image: "olivierleplus.png"
-  job: "Developer Relations PM"
   company: "Microsoft"
+  bio: "Developer Relation Program Manager at Microsoft and Google Developer Expert in Web Technologies. I love to share knowledge (and love) among developers and people in general."
   social:
     - name: twitter
       link: https://twitter.com/olivierleplus
@@ -22,9 +22,8 @@
       link: https://www.linkedin.com/in/olivierleplus/
 - 
   id: 3
-  name: "Doriane Houssais"
+  display_name: "Doriane Houssais"
   image: "dorianehoussais.jpg"
-  job: "Team Lead Social Media"
   company: "Microsoft"
   social:
     - name: twitter
@@ -33,16 +32,15 @@
       link: https://www.linkedin.com/in/doriane-houssais/
 - 
   id: 4
-  name: "Candice Rouzic"
+  display_name: "Candice Rouzic"
   image: "candicerouzic.jpg"
-  job: "Social Media Manager Tech & Dev"
   company: "Microsoft"
   social:
     - name: linkedin
       link: https://www.linkedin.com/in/candice-rouzic2/
 - 
   id: 5
-  name: "Julien Landuré"
+  display_name: "Julien Landuré"
   image: "julienlandure.jpg"
   company: "GDG Nantes"
   social:
@@ -52,9 +50,10 @@
       link: https://www.linkedin.com/in/jlandure/
 - 
   id: 6
-  name: "Annabelle Koster"
+  display_name: "Annabelle Koster"
   image: "annabellekoster.jpg"
   company: "GDG Nantes"
+  bio: "Ancienne Recruteuse IT, désormais Ambassadrice des communautés SFEIR. Je suis membre du GDG Nantes et organisatrice du DevFest Nantes depuis 2016, et présidente depuis 2020 ! Passionnée de l'univers IT, de mon métier et fan des Spice Girls !"
   social:
     - name: twitter
       link: https://twitter.com/AnnabelleKoster
@@ -62,7 +61,7 @@
       link: https://www.linkedin.com/in/annabelle-koster/
 - 
   id: 7
-  name: "Benjamin Petetot"
+  display_name: "Benjamin Petetot"
   image: "benjaminpetetot.jpg"
   company: "GDG Nantes"
   social:
