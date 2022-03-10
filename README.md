@@ -23,7 +23,7 @@ You can edit the introduction of your website in the `_includes/markdown/intro.m
 You can edit your code of Conduct in the `_pages/coc/_/coc.html` file	
 
 ## Installation (for local development)
-1. For first time user, you have to install Ruby and NodeJS. You may follow my installation guide in my [Jekyll tutorial](http://melvinchng.github.io/jekyll/installation.html#ruby-and-nodejs-installation) or [Ruby on Rails Tutorial](http://melvinchng.github.io/jekyll/RubyOnRailsInstallation.html) for Windows, Linux, and MacOS (installation videos are included).
+1. For first time user, you have to install Ruby and NodeJS. You may follow this installation guide in [Jekyll tutorial](http://melvinchng.github.io/jekyll/installation.html#ruby-and-nodejs-installation) or [Ruby on Rails Tutorial](http://melvinchng.github.io/jekyll/RubyOnRailsInstallation.html) for Windows, Linux, and MacOS (installation videos are included).
 2. Install Jekyll by using the command `gem install jekyll`.
 3. Then, install Jekyll Sitemap and Jekyll SEO gems by using the command `gem install jekyll-sitemap` and `gem install jekyll-seo-tag`.
 4. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
