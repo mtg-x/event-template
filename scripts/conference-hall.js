@@ -36,6 +36,7 @@ function createTalksFiles(confirmedTalks, speakers) {
 
         const template = `
 ---
+uid: ${talk.id}
 title: ${talk.title}
 level: ${talk.level}
 speakers: ${JSON.stringify(talk.speakers)}
@@ -63,7 +64,7 @@ function writeSpeakerFile(speakers) {
         if (speaker.selected) {
             selectedSpeakers.push({
                 id: speaker.uid,
-                name: speaker.displayName,
+                display_name: speaker.displayName,
                 image: `${speaker.uid}.png`,
                 company: speaker.company,
                 bio: speaker.bio

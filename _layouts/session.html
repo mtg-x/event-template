@@ -7,6 +7,17 @@ layout: default
 <section id="session">
     <div class="container session">
         <div class="content">
+            <div class="session-details">
+                {% for agenda in site.data.agenda %}
+                    {% assign date = agenda.date %}
+                    {% for slot in agenda.slots %}
+                        {% if slot.sessions contains page.uid %}
+                            {{date}} - {{slot.start}} - {{slot.end}}
+                        {% endif %}
+                    {% endfor %}
+                    
+                {% endfor %}
+            </div>
             {{ content }}
         </div>
         {% if page.speakers and page.speakers.size != 0 %}
@@ -17,11 +28,11 @@ layout: default
                     {% if speaker.id == speakerId %}
                     <div class="session-speaker mb-4">
                         <div>
-                            <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.name }}" />
+                            <img src="{{ speaker.image | prepend:"images/speakers/" | relative_url }}" alt="{{ speaker.display_name }}" />
                             </div>
                         <div class="speaker-infos">
-                            <div class="speaker-name">{{ speaker.name }}</div>
-                            <div>{{ speaker.job}}</div>
+                            <div class="speaker-name">
+                                <a href="{{"speakers/" | append: speaker.id | relative_url }}">{{ speaker.display_name }}</a></div>
                             <div class="speaker-company">{{ speaker.company }}</div>
                             <div class="social-links">
                                 {% for social in speaker.social %}
@@ -37,20 +48,3 @@ layout: default
         {% endif %}
     </div>
 </section>
-<!-- <p>{{ page.path }}</p>
-<p>{{page.url}}</p>
-<p><a href="{{page.url}}">{{page.title}}</a></p>
-<p>{{ page.level }}</p>
-<p>{{ page.language }}</p>
-<p>{{ page.speakers }}</p>
-{% for speakerId in page.speakers %}
-<ul>
-    {% for speaker in site.data.speakers %}
-        {% if speaker.id == speakerId %}
-                <li>{{ speaker.name }}</li>
-            </div>
-        </div>
-        {% endif %}
-    {% endfor %}
-</ul>
-{% endfor %} -->

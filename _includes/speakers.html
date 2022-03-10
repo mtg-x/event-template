@@ -12,6 +12,7 @@
                         <h4>{{ person.name }}</h4>
                         <p class="text-muted">{{ person.company }}</p>
                     </div>
+                    <a href="{{"speakers/" | append: person.id | relative_url }}">Voir</a>
                 </div>
             </div>
             {% endfor %}

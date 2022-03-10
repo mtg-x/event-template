@@ -27,6 +27,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-datapage-generator (1.4.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-relative-links (0.6.1)
@@ -69,6 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.9.0)
+  jekyll-datapage-generator
   jekyll-feed (= 0.15.1)
   jekyll-relative-links (= 0.6.1)
   jekyll-seo-tag (= 2.8.0)
