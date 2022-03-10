@@ -1,10 +1,13 @@
 .speakers {
     .speaker-item {
+
         margin: 0 0 15px;
         background-color: #fff;
         border-radius: 4px;
         border: solid 1px #e2e2e2;
-
+        transition: border 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        display: block;
+        
         .speaker-info {
             margin: 0 auto;
             padding-top: 25px;
@@ -15,6 +18,11 @@
         .speaker-avatar {
             border-radius: 4px 4px 0 0;
         }
+
+        &:hover {
+            border: solid 1px #c3c3c3;
+            box-shadow: 0px 0px 3px 2px #e8e8e8;
+          }
     }
 }
 
