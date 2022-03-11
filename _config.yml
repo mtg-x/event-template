@@ -15,12 +15,13 @@ navigationLinks:
  - {url: "/coc/", text: "CoC"}
 
 pageHeaders:
-  agenda: {bg: "#7cbb00", font: "#fff", title: "Agenda"}
-  team: {bg: "#00a1f1", font: "#fff", title: "Participants"}
-  coc: {bg: "#ffbb00", font: "#fff", title: "Code de Conduite"}
-  faq: {bg: "#f65314", font: "#fff", title: "Foire Aux Questions"}
+  agenda: {bg: "#00a1f1", font: "#fff", title: "Agenda"}
+  speakers: {bg: "#f65314", font: "#fff", title: "Speakers"}
+  team: {bg: "#7cbb00", font: "#fff", title: "Participants"}
+  faq: {bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions"}
+  coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"}
   sessions: {bg: "#7cbb00", font: "#fff"}
-  speakers: {bg: "#00a1f1", font: "#fff", title: "Speakers"}
+  
   
 collections:
   sessions:
