@@ -1,5 +1,6 @@
 # Event Template
-
+Welcome to the site template for the MTGs communities. This template allows you to quickly create a website for your events and conferences. 
+Feel free to contribute to the project and add features to the site.
 ## Features
 ### Index Page
 - Event's title, location, and date
