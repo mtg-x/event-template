@@ -19,6 +19,15 @@
 
             {% include /css/critical.scss %}
 
+            
+            {% if page.id == "home" %} 
+                @import 
+                    "sass/agenda",
+                    "sass/speakers";
+            {% elsif page.css %}
+                @import "sass/{{ page.css }}"
+            {% endif %}
+
             {% endcapture %}
 
             {{ criticalcss | scssify }}

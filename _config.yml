@@ -34,6 +34,7 @@ defaults:
       type: "sessions"
     values:
       layout: "session"
+      css: agenda
 
 logo: "../css/style/img/icon-large.png"
 

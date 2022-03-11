@@ -1,6 +1,5 @@
 .event {
-  // padding: 5%;
-  // margin: 100px 10vw 60px 10vw;
+
   img {
     width: 100%;
   }
@@ -80,12 +79,10 @@
 }
 .agenda {
   margin-left: auto;
-  // max-width: calc(100% - 64px);
   color: #424242;
 
   .event-slot-time {
     text-align: right;
-    // transform: translateX(calc(-100% - 16px));
     color: #757575;
     font-size: 32px;
     font-weight: 100;
