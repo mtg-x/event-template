@@ -1,0 +1,12 @@
+- 
+  count: 20
+  specialCharacter: ""
+  info: "communities"
+- 
+  count: 14
+  specialCharacter: "+"
+  info: "members"
+- 
+  count: 100
+  specialCharacter: "+"
+  info: "events"

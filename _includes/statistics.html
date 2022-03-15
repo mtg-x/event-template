@@ -1,0 +1,14 @@
+<section id="statistics">
+    <div class="container">
+        <div class="row">
+
+            {% for statistic in site.data.statistics %}
+            <div class="col text-center">
+                <div class="stat">{{ statistic.count}}</span>{{ statistic.specialCharacter}}</div>
+                <div class="stat-label">{{ statistic.info}}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    </div>
+</section>

@@ -23,6 +23,7 @@ pageHeaders:
   coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"}
   sessions: {bg: "#7cbb00", font: "#fff"}
   sponsors: {bg: "#ffbb00", font: "#fff", title: "Sponsors"}
+  statistics: {bg: "#7cbb00", font: "#fff"}
   
   
 collections:
