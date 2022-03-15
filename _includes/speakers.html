@@ -4,7 +4,7 @@
             {% assign speakerSorted = site.data.speakers | sort: 'name' %}
             {% for person in speakerSorted %}
             <div class="col-md-4 col-sm-6">
-                <a href="{{" speakers/" | append: person.id | relative_url }}" class="speaker-item">
+                <a href="{{"speakers/" | append: person.id | relative_url }}" class="speaker-item">
                     <img src="{{ person.image | prepend: "images/speakers/" | relative_url }}"
                         class="img-responsive img-centered width-100p speaker-avatar" alt="">
                     <div class="speaker-info">
