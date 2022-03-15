@@ -17,7 +17,7 @@
     -
       start: "17:00"
       end: "17:15"
-      sessions: [3]
+      sessions: [17]
     -
       start: "17:15"
       end: "18:00"
@@ -55,7 +55,7 @@
       end: "10:30"
       sessions: [12]
     -
-      start: "10:30"
+      start: "10:45"
       end: "11:00"
       sessions: [3]
     -
@@ -72,6 +72,10 @@
       sessions: [16]
     -
       start: "14:00"
-      end: "14:30"
+      end: "14:20"
       sessions: [15]
+    -
+      start: "14:20"
+      end: "16:00"
+      sessions: [18]
   
