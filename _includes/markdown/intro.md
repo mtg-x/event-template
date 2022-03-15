@@ -11,6 +11,6 @@ Enfin, nous pensons que la collaboration entre leads des communautés est un fac
 
 
 Pour ne pas perdre contact avec tous les orgas que tu rencontres lors du summit, n'oublies pas de nous rejoindre sur le slack Microsoft Developers Group.
-<p align="center">
-<button name="button" onclick="https://join.slack.com/t/mdg-france/shared_invite/zt-15okalzq8-1R8tmAMpvvOOAQ6k6RyN0A">Rejoins le Slack</button>
-</p>
+<div class="text-center">
+<a class="btn btn-primary" href="https://join.slack.com/t/mdg-france/shared_invite/zt-15okalzq8-1R8tmAMpvvOOAQ6k6RyN0A" role="button">Rejoins le Slack</a>
+</div>
