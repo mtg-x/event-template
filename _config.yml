@@ -16,13 +16,13 @@ navigationLinks:
  - {url: "/sponsors/", text: "Sponsors"}
 
 pageHeaders:
-  agenda: {bg: "#00a1f1", font: "#fff", title: "Agenda"}
-  speakers: {bg: "#f65314", font: "#fff", title: "Speakers"}
-  team: {bg: "#7cbb00", font: "#fff", title: "Participants"}
-  faq: {bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions"}
-  coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"}
+  agenda: {bg: "#00a1f1", font: "#fff", title: "Agenda"} # blue
+  speakers: {bg: "#f65314", font: "#fff", title: "Speakers"} # red
+  team: {bg: "#7cbb00", font: "#fff", title: "Participants"} # green
+  faq: {bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions"} # yellow
+  coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"} # red
   sessions: {bg: "#7cbb00", font: "#fff"}
-  sponsors: {bg: "#ffbb00", font: "#fff", title: "Sponsors"}
+  sponsors: {bg: "#00a1f1", font: "#fff", title: "Sponsors"} # blue
   statistics: {bg: "#7cbb00", font: "#fff"}
   
   
