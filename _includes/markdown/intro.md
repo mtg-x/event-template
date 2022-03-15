@@ -8,3 +8,9 @@ Notre but c'est de vous aider à faire grandir votre communauté et organiser de
 
 
 Enfin, nous pensons que la collaboration entre leads des communautés est un facteur clé de réussite. Profitez de ce moment privilégié pour faire connaissance, échanger vos contacts et découvrir les autres leads des communautés Microsoft de France.
+
+
+Pour ne pas perdre contact avec tous les orgas que tu rencontres lors du summit, n'oublies pas de nous rejoindre sur le slack Microsoft Developers Group.
+<p align="center">
+<button name="button" onclick="https://join.slack.com/t/mdg-france/shared_invite/zt-15okalzq8-1R8tmAMpvvOOAQ6k6RyN0A">Rejoins le Slack</button>
+</p>
