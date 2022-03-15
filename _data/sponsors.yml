@@ -1,0 +1,31 @@
+- level: Main sponsor
+  sponsors:
+  - name: Microsoft
+    logo: microsoft.jpg
+    link: https://www.microsoft.com/
+- level: Communities
+  sponsors:
+  - name: MIG Mons
+    logo: micmons.png
+    link: https://www.meetup.com/micbelgique/
+  - name: MUG Lille
+    logo: muglille.jpeg
+    link: https://www.meetup.com/fr-FR/Microsoft-User-Group-Lille/
+  - name: DevDay
+    logo: devday.jpg
+    link: https://devday.be/
+  - name: MUG .Net Nantes
+    logo: mugnantes.jpg
+    link: https://www.meetup.com/fr-FR/Meetup-Mug-Net-Nantes/
+  - name: Azug FR
+    logo: azugfr.png
+    link: https://www.meetup.com/fr-FR/AZUG-FR/
+  - name: MUG Montpellier
+    logo: mugmontpellier.jpg
+    link: https://www.meetup.com/fr-FR/MUG-Montpellier/
+  - name: MUG Lyon
+    logo: muglyon.jpeg
+    link: https://www.meetup.com/fr-FR/MUGLyon/
+  - name: MUG Montpellier
+    logo: mugmontpellier.jpeg
+    link: https://www.meetup.com/fr-FR/MUG-Montpellier/

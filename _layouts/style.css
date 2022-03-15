@@ -1,5 +1,5 @@
 
-{% include css/agency.css %}
+{% include css/style.css %}
 {{ content }}
 
 
@@ -37,6 +37,13 @@
     font-size: .85rem;
 }
 
+
+#sponsors img {
+    max-height: 150px;
+    width: auto;
+    max-width: 100%
+}
+  
 .logo {
     filter: drop-shadow(0px 0px 2px #000000);
 }

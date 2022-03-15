@@ -1,0 +1,19 @@
+<section id="sponsors" class="sponsors bg-light-gray">
+    <div class="container">
+        {% for pack in site.data.sponsors %}
+        <div class="row mb-5">
+            <h3 class="text-center mb-3">{{pack.level}}</h3>
+                {% for sponsor in pack.sponsors %}
+                <div class="col-md-4 col-sm-6 text-center">
+                    <div class="speaker-item mb-5">
+                        <img src="{{ sponsor.logo | prepend: "images/sponsors/" | relative_url }}" class="img-responsive img-centered width-100p speaker-avatar" alt="{{sponsor.name}}">
+                        <div class="speaker-info mt-3">
+                            <h5><a href="{{sponsor.link}}">{{ sponsor.name }}</a></h5>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -13,6 +13,7 @@ navigationLinks:
  - {url: "/team/", text: "Participants"}
  - {url: "/faq/", text: "FAQ"}
  - {url: "/coc/", text: "CoC"}
+ - {url: "/sponsors/", text: "Sponsors"}
 
 pageHeaders:
   agenda: {bg: "#00a1f1", font: "#fff", title: "Agenda"}
@@ -21,6 +22,7 @@ pageHeaders:
   faq: {bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions"}
   coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"}
   sessions: {bg: "#7cbb00", font: "#fff"}
+  sponsors: {bg: "#ffbb00", font: "#fff", title: "Sponsors"}
   
   
 collections:
