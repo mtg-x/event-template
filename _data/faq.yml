@@ -12,3 +12,17 @@
 
 - question: Est ce que je peux changer de bînome pour la chambre ? 
   answer: Oui mettez-vous juste d'accord entre vous.
+
+- question: Où est ce que je peux retouver tout les assets du branding MTG ? 
+  answer: "
+  Il faut d'abord demander accès au repo privé auprès de Olivier ou Tiffany.
+  Voici le lien vers le <a href='https://github.com/mtg-x/branding-assets' target='_blank'>repository du branding</a>.
+  "
+- question: Où est ce que je peux retouver le template du site ? 
+  answer: "
+  Voici le lien vers le <a href='https://github.com/mtg-x/event-template' target='_blank'>repository du template de site</a>.
+  "
+- question: Où est ce que je peux retouver le logo generator ? 
+  answer: "
+  Voici le lien vers le <a href='https://aka.ms/mtg-logogen' target='_blank'>logo generator</a>.
+  "
