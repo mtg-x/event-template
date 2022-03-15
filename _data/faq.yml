@@ -1,14 +1,14 @@
-- question: Question 1
-  answer: Answer to Question 1
+- question: Quelles sont les horaires de check-in et de check-out ?
+  answer: Check in 17h, check out 10h.
 
-- question: Question 2
-  answer: Answer to Question 2
+- question: Quelles sont les horaires du petit déjeuner ?
+  answer: Petit-déjeuner de 6h30 à 9h30.
 
-- question: Question 3
-  answer: Answer to Question 3
+- question: A quelle heure partent les navettes samedi ? 
+  answer: 14h20
 
-- question: Question 4
-  answer: Answer to Question 4
+- question: Est ce que l'on peut utiliser la piscine ? 
+  answer: Elle est ouverte de 6h30 à 23h00.
 
-- question: Question 5
-  answer: Answer to Question 5
+- question: Est ce que je peux changer de bînome pour la chambre ? 
+  answer: Oui mettez-vous juste d'accord entre vous.
