@@ -6,6 +6,7 @@ Welcome to the site template for the MTGs ! This template allows you to quickly 
 1. Clone this repository : `git clone https://github.com/mtg-x/event-template.git`
 2. Install dependencies : `bundle install`
 3. Launch the site locally : `jekyll serve` (when editing the config.yml, restart the server)
+4. Your site should be accessible at `localhost:4000`.
 
 ## Installation (for local development)
 1. For first time user, you have to install Ruby and NodeJS. You may follow the installation guide in the [Jekyll tutorial](http://melvinchng.github.io/jekyll/installation.html#ruby-and-nodejs-installation) or [Ruby on Rails Tutorial](http://melvinchng.github.io/jekyll/RubyOnRailsInstallation.html) for Windows, Linux, and MacOS (installation videos are included).
