@@ -28,6 +28,10 @@
     body {
         padding-bottom: 150px;
     }
+
+    .navbar-default {
+        background-color: #222 !important;
+    }
   }
   
   p {
