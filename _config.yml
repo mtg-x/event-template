@@ -13,16 +13,16 @@ navigationLinks:
  - {url: "/team/", text: "Participants"}
  - {url: "/faq/", text: "FAQ"}
  - {url: "/coc/", text: "CoC"}
- - {url: "/sponsors/", text: "Sponsors"}
+ - {url: "/sponsors/", text: "Communautés"}
 
 pageHeaders:
-  agenda: {bg: "#00a1f1", font: "#fff", title: "Agenda"} # blue
-  speakers: {bg: "#f65314", font: "#fff", title: "Speakers"} # red
-  team: {bg: "#7cbb00", font: "#fff", title: "Participants"} # green
-  faq: {bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions"} # yellow
-  coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"} # red
+  agenda: {bg: "#00a1f1", font: "#fff", title: "Agenda"}
+  speakers: {bg: "#f65314", font: "#fff", title: "Speakers"}
+  team: {bg: "#7cbb00", font: "#fff", title: "Participants"}
+  faq: {bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions"}
+  coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"}
   sessions: {bg: "#7cbb00", font: "#fff"}
-  sponsors: {bg: "#00a1f1", font: "#fff", title: "Sponsors"} # blue
+  sponsors: {bg: "#ffbb00", font: "#fff", title: "Communautés"}
   statistics: {bg: "#7cbb00", font: "#fff"}
   
   
@@ -57,7 +57,6 @@ page_gen:
   - data: 'speakers'
     template: 'speaker'
     name: 'id'
-    title: 'display_name'
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

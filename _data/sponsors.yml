@@ -26,3 +26,15 @@
   - name: MUG Montpellier
     logo: mugmontpellier.jpeg
     link: https://www.meetup.com/fr-FR/MUG-Montpellier/
+  - name: .NET Toulouse
+    logo: toulouse.jpg
+    link: https://www.meetup.com/fr-FR/Meetup-NET-Toulouse/
+  - name: MUG Tours
+    logo: mugtours.jpeg
+    link: https://www.meetup.com/fr-FR/Meetup-Mug-Tours/
+  - name: DevApps
+    logo: devapps.png
+    link: https://devapps.be/
+  - name: FRPSUG
+    logo: frpsug.png
+    link: https://frpsug.com/
