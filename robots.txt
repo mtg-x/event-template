@@ -1,0 +1,4 @@
+Sitemap: https://mtg-x.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /css
